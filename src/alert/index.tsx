@@ -1,6 +1,10 @@
 import React from 'react';
 import t from 'prop-types';
 export interface AlertProps {
+  /**
+   * @description Alert的类型
+   * @default 'info'
+   */
     children: any,
     kind?: 'info' | 'positive' | 'negative' | 'warning';
 }
